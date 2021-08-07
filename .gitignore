@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs/YanoC/v17
+/YanoC/Debug
+/YanoC/YanoC.vcxproj.user
+/YanoC/YanoC.vcxproj.filters
