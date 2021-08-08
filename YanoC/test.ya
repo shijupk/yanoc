@@ -1,24 +1,9 @@
-var globalOne;
-var globalTwo;
-
-fun main() {
-  {
-    var a = "one";
-    fun one() {
-      print a;
-    }
-    globalOne = one;
-  }
-
-  {
-    var a = "two";
-    fun two() {
-      print a;
-    }
-    globalTwo = two;
-  }
+fun outer(){
+fun inner()
+{
+print "test";
+}
+inner();
 }
 
-main();
-globalOne();
-globalTwo();
+outer();
