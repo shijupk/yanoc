@@ -1,9 +1,15 @@
-fun outer(){
-fun inner()
-{
-print "test";
-}
-inner();
+class CoffeeMaker {
+  init(coffee) {
+    this.coffee = coffee;
+  }
+
+  brew() {
+    print "Enjoy your cup of " + this.coffee;
+
+    // No reusing the grounds!
+    this.coffee = nil;
+  }
 }
 
-outer();
+var maker = CoffeeMaker("coffee and chicory");
+maker.brew();
