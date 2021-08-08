@@ -53,4 +53,5 @@ dkms.conf
 /.vs/YanoC/v17
 /YanoC/Debug
 /YanoC/YanoC.vcxproj.user
-/YanoC/YanoC.vcxproj.filters
+
+/Debug
